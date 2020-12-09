@@ -1,0 +1,147 @@
+
+@media (max-width: 1440px) {
+  .header {
+    width: 1080px;
+    font-size: 26px;
+  }
+
+}
+@media (max-width: 1080px) {
+  .header {
+    width: 960px;
+    font-size: 24px;
+  }
+
+}
+@media (max-width: 960px) {
+  .header {
+    width: 700px;
+    font-size: 20px;   
+  }
+
+
+}
+@media (max-width: 700px) {
+  .header {
+    width: 600px;
+    font-size: 18px;   
+  }
+
+}
+@media (max-width: 600px) {
+  .header {
+    
+    width: 500px;
+    font-size: 15px;    
+  }
+
+}
+@media (max-width: 500px) {
+  .header {
+    
+    width: 400px;
+    font-size: 13px;    
+  }
+
+}
+@media (max-width: 400px) {
+  .header {
+    
+    width: 300px;
+    font-size: 12px;    
+  }
+
+}
+
+
+.header{
+
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px auto ;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+
+}
+
+.btn-logo img{
+    width: 60.55%;
+    height: 35%;
+    margin: 17px 20px;
+
+}
+.btn-logo{
+    width: 15%;
+}
+
+ul{
+    list-style-type: none;
+
+    padding:0px;
+    display: flex;
+    flex-grow: 1;
+    width: 80%;
+
+
+
+}
+.btn-connection a{
+    color: white;
+}
+.btn-activity a, .btn-ville a, .btn-connection a, .btn-partenaire a {
+    text-decoration: none;
+
+}
+
+.btn-connection{
+
+
+    padding: 5px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    border-radius: 6px;
+    background-color: #650039;
+    margin: 0px 10% 0px 0px;
+
+}
+
+.btn-connection a:hover{
+    color: black;
+    transition: 0.3s ease;
+}
+
+
+.btn-ville a,.btn-partenaire a, .btn-activity a{
+    color: #650039;
+
+
+
+
+}
+.btn-ville a:hover,.btn-partenaire a:hover, .btn-activity a:hover{
+    border-bottom: 2px solid black;
+    transition: 0.3s ease;
+    transform-origin: left;
+
+
+
+}
+
+
+    
+
+.btn-ville ,.btn-partenaire , .btn-activity {
+    background-color: transparent;
+    text-align: center;
+    margin: 0px 2.5%;
+
+}
+
+ul, .btn-connection {
+
+    align-items: center;
+}
+
+
+

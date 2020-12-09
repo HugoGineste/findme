@@ -1,0 +1,279 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card {
+    background-position: center;
+    color: white;
+    margin: 20px;
+    justify-content: space-between;
+    flex-basis: 35%;
+    align-items: center;
+    display: flex;
+    border-radius: 6px;
+    padding: 20px 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    background-color: rgba(235;230;220);
+    flex-grow: 1;
+    text-align: center;
+
+}
+
+.card img {
+
+    width: 150px;
+    border-radius: 6px;
+}
+
+.card h3{
+	font-weight: bolder;
+    flex-grow: 1;
+    padding-left: 20px;
+    font-size: 22px;
+    color: black;
+
+}
+
+
+.card-Hugo{
+    padding: 0px auto;
+    position: relative;
+    margin:40px;
+}
+.card-Hugo img{
+    border-radius: 50%;
+    width: 233px;
+    height: 255px;
+}
+
+.card-Hugo img:hover{
+    opacity: 0.4;
+
+}
+.card-Hugo:hover{
+    color: red;
+}
+
+.card-Hugo span{
+    position:absolute;
+    left: 25%;
+    top:10%;
+    opacity:0.0;
+}
+.card-Hugo span p{
+    font-size: 20px;
+}
+  
+.card-Hugo:hover span{
+    opacity: 1;
+    color: black;
+    text-align: center;
+}
+
+.card-nicolas{
+    padding: 0px auto;
+    position: relative;
+    margin:40px;
+}
+.card-nicolas img{
+    border-radius: 50%;
+    width: 233px;
+    height: 255px;
+}
+
+.card-nicolas img:hover{
+    opacity: 0.4;
+
+}
+.card-nicolas:hover{
+    color: red;
+}
+
+.card-nicolas span{
+    position:absolute;
+    left: 18%;
+    top:10%;
+    opacity:0.0;
+}
+  
+.card-nicolas:hover span{
+    opacity: 1;
+    color: black;
+    text-align: center;
+}
+.card-nicolas span p{
+    font-size: 20px;
+}
+
+.card-pierre{
+    padding: 0px auto;
+    position: relative;
+    margin:40px;
+}
+.card-pierre img{
+    border-radius: 50%;
+    width: 233px;
+    height: 255px;
+}
+
+.card-pierre img:hover{
+    opacity: 0.4;
+
+}
+.card-pierre:hover{
+    color: red;
+}
+
+.card-pierre span{
+    position:absolute;
+    left: 11%;
+    top:10%;
+    opacity:0.0;
+}
+  
+.card-pierre:hover span{
+    opacity: 1;
+    color: black;
+    text-align: center;
+}
+.card-pierre span p{
+    font-size: 20px;
+}
+.card-sarah{
+    padding: 0px auto;
+    position: relative;
+    margin:40px;
+}
+.card-sarah img{
+    border-radius: 50%;
+    width: 233px;
+    height: 255px;
+}
+
+.card-sarah img:hover{
+    opacity: 0.4;
+
+}
+.card-sarah:hover{
+    color: red;
+}
+
+.card-sarah span{
+    position:absolute;
+    left: 15%;
+    top:10%;
+    opacity:0.0;
+}
+  
+.card-sarah:hover span{
+    opacity: 1;
+    color: black;
+    text-align: center;
+}
+.card-sarah span p{
+    font-size: 20px;
+}
+.card-francois{
+    padding: 0px auto;
+    position: relative;
+    margin:40px;
+    left: 30%;
+}
+.card-francois img{
+    border-radius: 50%;
+    width: 233px;
+    height: 255px;
+}
+
+.card-francois img:hover{
+    opacity: 0.4;
+
+}
+.card-francois:hover{
+    color: red;
+}
+
+.card-francois span{
+    position:absolute;
+    left: 12%;
+    top:10%;
+    opacity:0.0;
+}
+  
+.card-francois:hover span{
+    opacity: 1;
+    color: black;
+    text-align: center;
+}
+.card-francois span p{
+    font-size: 20px;
+}
+.card-alice{
+    padding: 0px auto;
+    position: relative;
+    margin:40px;
+}
+.card-alice img{
+    border-radius: 50%;
+    width: 233px;
+    height: 255px;
+}
+
+.card-alice img:hover{
+    opacity: 0.4;
+
+}
+.card-alice:hover{
+    color: red;
+}
+
+.card-alice span{
+    position:absolute;
+    left: 0%;
+    top:10%;
+    opacity:0.0;
+}
+  
+.card-alice:hover span{
+    opacity: 1;
+    color: black;
+    text-align: center;
+}
+.card-alice span p{
+    font-size: 20px;
+}
+.card-flora{
+    padding: 0px auto;
+    position: relative;
+    margin:40px;
+}
+.card-flora img{
+    border-radius: 50%;
+    width: 233px;
+    height: 255px;
+}
+
+.card-flora img:hover{
+    opacity: 0.4;
+
+}
+.card-flora:hover{
+    color: red;
+}
+
+.card-flora span{
+    position:absolute;
+    left: 22%;
+    top:10%;
+    opacity:0.0;
+}
+  
+.card-flora:hover span{
+    opacity: 1;
+    color: black;
+    text-align: center;
+}
+.card-flora span p{
+    font-size: 20px;
+}
